@@ -1,0 +1,263 @@
+[
+  {
+    "id": "bermondsey",
+    "name": "Bermondsey Drop-Off Depot",
+    "operator": "city",
+    "address": "188 Bermondsey Rd, North York, ON",
+    "lat": 43.722038,
+    "lng": -79.318323,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "23:30"],
+          "tue": ["00:00", "23:30"],
+          "wed": ["00:00", "23:30"],
+          "thu": ["00:00", "23:30"],
+          "fri": ["00:00", "21:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": ["10:00", "18:00"],
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "metal": { "hours": "sameAs:garbage" },
+      "drywall": { "hours": "sameAs:garbage" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "Drywall: clean only, max 1 tonne. Overnight site: paused 23:30 to midnight.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "commissioners",
+    "name": "Commissioners Drop-Off Depot",
+    "operator": "city",
+    "address": "400 Commissioners St, Toronto, ON",
+    "lat": 43.651978,
+    "lng": -79.339302,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "18:00"],
+          "tue": ["06:00", "18:00"],
+          "wed": ["06:00", "18:00"],
+          "thu": ["06:00", "18:00"],
+          "fri": ["06:00", "18:00"],
+          "sat": null,
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": null,
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "metal": { "hours": "sameAs:garbage" },
+      "drywall": { "hours": "sameAs:garbage" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "Oct 26 to Dec 18: expect delays, tipping floor repairs. Drywall: clean only, max 1 tonne.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "disco",
+    "name": "Disco Drop-Off Depot",
+    "operator": "city",
+    "address": "120 Disco Rd, Etobicoke, ON",
+    "lat": 43.700648,
+    "lng": -79.602496,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "18:00"],
+          "tue": ["06:00", "18:00"],
+          "wed": ["06:00", "18:00"],
+          "thu": ["06:00", "18:00"],
+          "fri": ["06:00", "18:00"],
+          "sat": null,
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": null,
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "No drywall. No metal.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "dufferin",
+    "name": "Dufferin Drop-Off Depot",
+    "operator": "city",
+    "address": "35 Vanley Cres, North York, ON",
+    "lat": 43.761732,
+    "lng": -79.470746,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "18:00"],
+          "tue": ["06:00", "18:00"],
+          "wed": ["06:00", "18:00"],
+          "thu": ["06:00", "18:00"],
+          "fri": ["06:00", "18:00"],
+          "sat": null,
+          "sun": null
+        }
+      },
+      "metal": { "hours": "sameAs:garbage" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "No HHW or e-waste. No drywall.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "ingram",
+    "name": "Ingram Drop-Off Depot",
+    "operator": "city",
+    "address": "50 Ingram Dr, North York, ON",
+    "lat": 43.700662,
+    "lng": -79.471307,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "23:30"],
+          "tue": ["00:00", "23:30"],
+          "wed": ["00:00", "23:30"],
+          "thu": ["00:00", "23:30"],
+          "fri": ["00:00", "23:30"],
+          "sat": ["00:00", "12:30"],
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": ["10:00", "18:00"],
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "metal": { "hours": "sameAs:garbage" },
+      "drywall": { "hours": "sameAs:garbage" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "Drywall: clean only, max 1 tonne. Overnight site: paused 23:30 to midnight.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "scarborough",
+    "name": "Scarborough Drop-Off Depot",
+    "operator": "city",
+    "address": "1 Transfer Pl, Scarborough, ON",
+    "lat": 43.796518,
+    "lng": -79.242617,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "18:00"],
+          "tue": ["06:00", "18:00"],
+          "wed": ["06:00", "18:00"],
+          "thu": ["06:00", "18:00"],
+          "fri": ["06:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": null,
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "No drywall. No metal.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  },
+  {
+    "id": "victoria-park",
+    "name": "Victoria Park Drop-Off Depot",
+    "operator": "city",
+    "address": "3350 Victoria Park Ave, North York, ON",
+    "lat": 43.803169,
+    "lng": -79.337296,
+    "materials": {
+      "garbage": {
+        "hours": {
+          "mon": ["06:00", "18:00"],
+          "tue": ["06:00", "18:00"],
+          "wed": ["06:00", "18:00"],
+          "thu": ["06:00", "18:00"],
+          "fri": ["06:00", "18:00"],
+          "sat": null,
+          "sun": null
+        }
+      },
+      "hhw": {
+        "hours": {
+          "mon": null,
+          "tue": ["10:00", "18:00"],
+          "wed": ["10:00", "18:00"],
+          "thu": ["10:00", "18:00"],
+          "fri": ["10:00", "18:00"],
+          "sat": ["07:00", "12:30"],
+          "sun": null
+        }
+      },
+      "ewaste": { "hours": "sameAs:hhw" },
+      "renovation": { "hours": "sameAs:garbage" },
+      "yard": { "hours": "sameAs:garbage" }
+    },
+    "notes": "No drywall. No metal.",
+    "sourceUrl": "https://www.toronto.ca/services-payments/recycling-organics-garbage/drop-off-depots/locations/",
+    "lastVerified": "2026-11-03"
+  }
+]

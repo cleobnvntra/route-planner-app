@@ -1,0 +1,15 @@
+node_modules
+dist
+dev-dist
+.vercel
+.env
+.env.*
+!.env.example
+*.log
+dist-apk
+signing
+release
+CLAUDE.md
+project-summary.txt
+.github/modernize/
+*.zip
